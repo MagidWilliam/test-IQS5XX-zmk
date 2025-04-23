@@ -19,7 +19,7 @@
         compatible = "azoteq,iqs5xx";
         reg = <0x74>;
         status = "okay";
-        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
+        dr-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH)>;
     };
 };
 
@@ -31,7 +31,7 @@
         compatible = "azoteq,iqs5xx";
         reg = <0x74>;
 	// same pin like niceview
-        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_LOW)>;
+        dr-gpios = <&pro_micro 18 GPIO_ACTIVE_LOW>;
         x-invert = <false>;
         y-invert = <false>;
         no-taps = <false>;
