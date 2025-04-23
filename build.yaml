@@ -20,8 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left azoteq_left_enable
-  - board: nice_nano_v2
     shield: corne_left azoteq_left
   - board: nice_nano_v2
     shield: corne_right azoteq_right

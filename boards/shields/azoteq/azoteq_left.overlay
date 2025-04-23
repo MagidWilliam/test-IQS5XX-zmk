@@ -5,3 +5,11 @@
  */
 
 #include "azoteq.dtsi"
+
+&iqs5xx {
+    status = "okay";
+};
+
+&iqs5xx_listener {
+    status = "okay";
+};
