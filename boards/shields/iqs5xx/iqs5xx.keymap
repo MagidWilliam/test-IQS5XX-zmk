@@ -12,7 +12,7 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-		label = "corne-unified";
+		label = "iqs5xx";
 		
                 default_layer {
                 label = "Default";
