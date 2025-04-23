@@ -8,6 +8,5 @@ manifest:
     - name: azoteq-input-module
       remote: mctechnology17
       revision: main
-      import: app/west.yml
   self:
     path: config
